@@ -1,2 +1,36 @@
 /* Datos Personales: Daniel González Pérez - UO288047 */
 /* Estilos generales del proyecto MotoGP-Desktop */
+
+
+/*Especificidad 001 */
+body {
+    font-family: Geneva, "Arial Black", sans-serif;
+    color: #3C0B0B;
+    background-color: #F5F0E5;
+}
+
+/*Especificidad 002 */
+
+body h2 {
+    color: #881B1B; /* ADVERTENCIA comprobada, toma mediante herencia el color de fondo de <body>*/
+}
+
+/*Especificidad 001 */
+header{
+    background-color: #3C0B0B; /* ADVERTENCIA comprobada, toma mediante herencia el color de primer plano de <body>*/
+}
+
+/*Especificidad 002*/
+h1, nav{
+    color: #DEA296; /* ADVERTENCIA(S) (2) comprobadas, toma mediante herencia el color de fondo de <header>*/
+}
+
+/*Especificidad 012*/
+h1 a:visited{
+    color: #DEA296; /* ADVERTENCIA comprobada, toma mediante herencia el color de fondo de <header>*/
+}
+
+/*Especificidad 012*/
+nav a:visited{
+    color: #DEA296; /* ADVERTENCIA comprobada, toma mediante herencia el color de fondo de <header>*/
+}
