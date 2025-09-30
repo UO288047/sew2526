@@ -20,9 +20,13 @@ header{
     background-color: #3C0B0B; /* ADVERTENCIA comprobada, toma mediante herencia el color de primer plano de <body>*/
 }
 
-/*Especificidad 002*/
+/*Especificidad 002*/ /*REVISAR!!! no hace nada? */
 h1, nav{
     color: #DEA296; /* ADVERTENCIA(S) (2) comprobadas, toma mediante herencia el color de fondo de <header>*/
+}
+
+header a{
+    color: #DEA296; /* ADVERTENCIA comprobada, toma mediante herencia el color de fondo de <header>*/
 }
 
 /*Especificidad 012*/
