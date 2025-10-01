@@ -1,1 +1,2 @@
-[!WARNING] Añadir favicon a todos los docs
+> [!WARNING]
+> Añadir favicon a todos los docs
