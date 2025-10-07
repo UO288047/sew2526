@@ -20,20 +20,11 @@ header{
     background-color: #3C0B0B; /* ADVERTENCIA comprobada, toma mediante herencia el color de primer plano de <body>*/
 }
 
-/*Especificidad 002*/ /*REVISAR!!! no hace nada? */
-h1, nav{
-    color: #DEA296; /* ADVERTENCIA(S) (2) comprobadas, toma mediante herencia el color de fondo de <header>*/
-}
 
 /*Especificidad 002 */
 header a{
     color: #DEA296; /* ADVERTENCIA comprobada, toma mediante herencia el color de fondo de <header>*/
     text-decoration-line: none;
-}
-
-/*Especificidad 012*/
-h1 a:visited{
-    color: #DEA296; /* ADVERTENCIA comprobada, toma mediante herencia el color de fondo de <header>*/
 }
 
 
@@ -46,4 +37,9 @@ a.active{
 /*Especificidad 002*/
 header+p{
     font-size: 0.7em;
+}
+
+/*Especificidad 003*/
+header+p a{
+    color: #3C0B0B; /*ADVERTENCIA comprobada, toma mediante herencia el color de fondo del elemento <body>*/
 }

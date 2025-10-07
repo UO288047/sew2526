@@ -1,0 +1,44 @@
+/* Datos Personales: Daniel González Pérez - UO288047 */
+/* Estilos de layout del header y nav del proyecto MotoGP-Desktop */
+
+/* Especificidad 001 */
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.5em;
+    align-items: center;
+}
+
+/* Especificidad 002 */
+header nav{
+    display:flex;
+    gap: 1.1em;
+}
+
+/* Layout para tablets */
+
+@media(min-width: 320px) and (max-width: 799px){
+
+    /*Especificidad 001*/
+    header{
+        display: flex; /*Redifinición de la propiedad display*/
+        flex-direction: column; /*Redifinición de la propiedad flex-direction*/
+        align-items: flex-start; /*Redifinición de la propiedad align-items*/
+    }
+    /*Especificidad 002*/
+    header nav{
+        display: flex; /*Redifinición de la propiedad display*/
+        flex-direction: column;
+    }
+    /*Especificidad 002*/
+    video, audio {
+        width: 100%;
+        height: auto;
+    }
+
+    /*Especificidad 002*/
+    header+p{
+        display: none;
+    }
+}
