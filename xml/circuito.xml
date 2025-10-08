@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+
+<circuito>
+    <nombre>Autódromo Internacional de Termas de Río Hondo</nombre>
+    <longitudCircuito unidad="metros">4805</longitudCircuito>
+    <anchuraMedia unidad="metros">16</anchuraMedia>
+    <fechaCarrera>16/03/2025</fechaCarrera>
+    <horaCarrera>15:00 UTC-3</horaCarrera>
+    <vueltas>25</vueltas>
+    <localidad>Termas de Río Hondo</localidad>
+    <pais>Argentina</pais>
+    <patrocinador>YPF Energía</patrocinador>
+    <referencias>
+        <referencia></referencia>
+        <referencia></referencia>
+        <referencia></referencia>
+    </referencias>
+    <fotografias>
+        <fotografia></fotografia>
+        <fotografia></fotografia>
+        <fotografia></fotografia>
+    </fotografias>
+    <videos>
+        <video></video>
+    </videos>
+    <origen>
+        <longitud></longitud>
+        <latitud></latitud>
+        <altitud></altitud>
+    </origen>
+    <ganadorCarrera>Marc Márquez</ganadorCarrera>
+    <tiempoGanador>41'11.100</tiempoGanador>
+    <clasificadosMundial>
+        <clasificado></clasificado>
+        <clasificado></clasificado>
+        <clasificado></clasificado>
+    </clasificadosMundial>
+    <trazado>
+        <tramo>
+            <distancia unidad="metros"></distancia>
+            <puntoFinal>
+                <longitud>-64,9190937º</longitud>
+                <latitud>-27,5110437º</latitud>
+                <altitud>282</altitud>
+            </puntoFinal>
+            <sector></sector>
+        </tramo>
+    </trazado>
+</circuito>
