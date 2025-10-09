@@ -6,7 +6,6 @@
 > [!NOTE]
 > - Comprobar atributos title de enlaces (redundant text)
 > - Archivo ayuda.html da warning for lorem ipsum (idioma)
-> - Audio desaparece con media-queries
 > - La mayoría de tablets usan la versión de escritorio
 > - Inicio (migas) subrayado???
 > - Cambiar el párrafo de en desarrollo (sale como migas)
