@@ -31,10 +31,15 @@ header nav{
         display: flex; /*Redifinición de la propiedad display*/
         flex-direction: column;
     }
-    /*Especificidad 002*/
-    video, audio {
+    /*Especificidad 001*/
+    video{
         width: 100%;
         height: auto;
+    }
+
+    /*Especificidad 001*/
+    audio{
+        width: 100%;
     }
 
     /*Especificidad 002*/
@@ -42,3 +47,4 @@ header nav{
         display: none;
     }
 }
+
