@@ -27,7 +27,7 @@
     <origen>
         <longitud></longitud>
         <latitud></latitud>
-        <altitud></altitud>
+        <altitud unidad="metros"></altitud>
     </origen>
     <ganadorCarrera>Marc Márquez</ganadorCarrera>
     <tiempoGanador>41'11.100</tiempoGanador>
@@ -42,7 +42,7 @@
             <puntoFinal>
                 <longitud>-64,9190937º</longitud>
                 <latitud>-27,5110437º</latitud>
-                <altitud>282</altitud>
+                <altitud unidad="metros">282</altitud>
             </puntoFinal>
             <sector></sector>
         </tramo>
