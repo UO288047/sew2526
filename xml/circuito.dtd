@@ -20,6 +20,7 @@
 <!ELEMENT longitud (#PCDATA)>
 <!ELEMENT latitud (#PCDATA)>
 <!ELEMENT altitud (#PCDATA)>
+<!ATTLIST altitud unidad CDATA #REQUIRED>
 <!ELEMENT ganadorCarrera (#PCDATA)>
 <!ELEMENT tiempoGanador (#PCDATA)>
 <!ELEMENT clasificadosMundial (clasificado+)> <!--Los 3 primeros-->
