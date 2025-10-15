@@ -4,21 +4,20 @@
 
 # Verificaciones y cosas pendientes
 > [!NOTE]
-> - Comprobar atributos title de enlaces (redundant text)
-> - Archivo ayuda.html da warning for lorem ipsum (idioma)
-> - La mayoría de tablets usan la versión de escritorio
-> - Inicio (migas) subrayado???
-> - Cambiar el párrafo de en desarrollo (sale como migas)
+> - Comprobar atributos title de enlaces (redundant text) CAMBIAR TEXTO
+> - Archivo ayuda.html da warning for lorem ipsum (idioma) NO DA PROBLEMA AL FINAL
+> - La mayoría de tablets usan la versión de escritorio NO IMPORTA
+> - Inicio (migas) subrayado??? ESTÁ BIEN
+> - Cambiar el párrafo de en desarrollo (sale como migas) NO DA PROBLEMA AL FINAL
 
 
 > [!WARNING] 
-> - Comprobar estructura semántica (audio dentro de aside)
-> - Cambiar h2 por h3???
-> - Scroll horiz. iPhone SE 5
-> - Verificar [estilo.css](https://github.com/UO288047/sew2526/blob/main/estilo/estilo.css)
+> - h2 único para cada documento, cada sección un h3
+> - Eliminar footer, incrustar enlaces en parrafos o en un aside
+> - Eliminar sobreeestructuración en ASIDE (quitar section)
 
-> [!CAUTION]
-> - Verificar [layout.css](https://github.com/UO288047/sew2526/blob/main/estilo/layout.css) (solo se permiten propiedades de posicionamiento)
+>[!CAUTION]
+> - Solo redefinir las que cambian en CSS (media query)
 
 
 
