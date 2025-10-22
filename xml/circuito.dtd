@@ -23,11 +23,11 @@
 <!ATTLIST altitud unidad CDATA #REQUIRED>
 <!ELEMENT ganadorCarrera (#PCDATA)>
 <!ELEMENT tiempoGanador (#PCDATA)>
-<!ELEMENT clasificadosMundial (clasificado+)> <!--Los 3 primeros-->
+<!ELEMENT clasificadosMundial (clasificado+)> <!-- Exactamente 3 -->
 <!ELEMENT clasificado (#PCDATA)>
 <!ATTLIST clasificado posicion CDATA #REQUIRED>
 <!ELEMENT trazado (tramo+)>
-<!ELEMENT tramo (distancia, puntoFinal, sector)>
+<!ELEMENT tramo (distancia, puntoFinal, sector)> <!-- Mínimo 1 (revisar guion) -->
 <!ELEMENT distancia (#PCDATA)>
 <!ATTLIST distancia unidad CDATA #REQUIRED>
 <!ELEMENT puntoFinal (longitud, latitud, altitud)>
