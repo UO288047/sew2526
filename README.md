@@ -16,6 +16,7 @@
 > - h2 único para cada documento, cada sección un h3
 > - Eliminar footer, incrustar enlaces en parrafos o en un aside
 > - Eliminar sobreeestructuración en ASIDE (quitar section)
+> - Hacer tabla accesible (cambiar columnas por una sola columna)
 
 >[!CAUTION]
 > - Solo redefinir las que cambian en CSS (media query)
