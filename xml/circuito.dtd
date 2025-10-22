@@ -25,6 +25,7 @@
 <!ELEMENT tiempoGanador (#PCDATA)>
 <!ELEMENT clasificadosMundial (clasificado+)> <!--Los 3 primeros-->
 <!ELEMENT clasificado (#PCDATA)>
+<!ATTLIST clasificado posicion CDATA #REQUIRED>
 <!ELEMENT trazado (tramo+)>
 <!ELEMENT tramo (distancia, puntoFinal, sector)>
 <!ELEMENT distancia (#PCDATA)>
