@@ -7,4 +7,8 @@
 > Poner el mismo nav en todos los documentos (el de piloto que modifiqué)
 
 
+> [!CAUTION]
+> Al final del proyecto: **Verificar toda la accesibilidad** (pág. 34 Seminario Accesibilidad)
+
+
 
