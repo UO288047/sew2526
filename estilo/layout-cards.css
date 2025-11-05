@@ -1,0 +1,15 @@
+/* Datos Personales: Daniel González Pérez - UO288047 */
+/* Estilos generales del proyecto MotoGP-Desktop */
+
+/*Especificidad 002 */
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+}
+
+/*Especificidad 001 */
+h2{
+    grid-column: 1  / span 4;
+    text-align: center;
+}

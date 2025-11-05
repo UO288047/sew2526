@@ -12,6 +12,9 @@
     <link rel="icon" href="multimedia/images/icono.ico"/>
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+    <script src="js/ciudad.js"></script>
+
 </head>
 
 <body>
@@ -33,7 +36,62 @@
 
     <p>Estás en: <a href="index.html" title="Inicio">Inicio</a> >> <strong>Meteorología</strong></p>
 
-    <h2>El Tiempo</h2>
-    <p>En desarrollo...</p>
+    <main>
+        <h2>
+            <script>
+                document.write(ciudad.obtenerNombre());
+            </script>
+        </h2>
+
+        <section>
+            <h3>Información básica: </h3>
+            <p>País: <script>document.write(ciudad.obtenerPais());</script></p>
+        <script>ciudad.escribirCoordenadas();</script>
+        </section>
+
+
+        <section>
+            <h3>Más información: </h3>
+            <script>
+                document.write(ciudad.obtenerInfoExtra());
+            </script> 
+        </section>
+    </main>
+    
+    
+    <!-- <script>
+
+
+        var mainContent = document.createElement("main");  
+
+        var infoBasica = document.createElement("section");
+
+        var ciudad = new Ciudad("Termas de Río Hondo", "Argentina", "Termeño/Termeña");
+        ciudad.completarCamposRestantes();
+
+        var nombreCiudad = document.createElement("h3");
+        nombreCiudad.textContent = ciudad.obtenerNombre();
+        infoBasica.appendChild(nombreCiudad);
+
+        var pais = document.createElement("p");
+        pais.textContent = "País: " + ciudad.obtenerPais();
+        infoBasica.appendChild(pais);
+
+        ciudad.escribirCoordenadas();
+
+
+
+        var infoExtra = document.createElement("section");
+        infoExtra.innerHTML = "<h4>Más información:</h4>" + 
+        ciudad.obtenerInfoExtra();
+
+
+        mainContent.appendChild(infoBasica);
+        mainContent.appendChild(infoExtra);
+
+        document.body.appendChild(mainContent);
+
+
+    </script> -->
 </body>
 </html>

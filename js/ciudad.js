@@ -1,4 +1,4 @@
-"use strict;"
+"use strict";
 class Ciudad{
     constructor(nombre, pais, gentilicio){
         this.nombre = "Termas de Río Hondo";
@@ -19,30 +19,23 @@ class Ciudad{
     }
 
     obtenerInfoExtra(){
-        // const gentilicio = document.createAttribute("li");
-        // const poblacion = document.createAttribute("li");
-        // gentilicio.textContent = this.gentilicio;
-        // poblacion.textContent = this.poblacion;
-
-        // const listaNoOrdenada = document.createAttribute("ul");
-        // listaNoOrdenada.appendChild(gentilicio);
-        // listaNoOrdenada.appendChild(poblacion);
-
-        // return listaNoOrdenada;
-
-
         const infoExtra = "<ul>" +
-         "<li>" + this.gentilicio + "</li>" +
-         "<li>" + this.poblacion + "</li>" +
+         "<li> Gentilicio: " + this.gentilicio + "</li>" +
+         "<li> Población: " + this.poblacion + "</li>" +
          "</ul>";
 
         return infoExtra;
     }
 
     escribirCoordenadas(){
-        // Modificar sin el write
-        document.write("<p>" + this.coordenadas + "</p>");
+        
+        const mensaje = document.createElement("p");
+        mensaje.textContent = this.coordenadas;
+        document.body.appendChild(mensaje);
+        
     }
 
-
 }
+
+let ciudad = new Ciudad("Termas de Río Hondo", "Argentina", "termeño/termeña");
+ciudad.completarCamposRestantes();
