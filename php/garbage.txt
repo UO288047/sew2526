@@ -1,1 +1,0 @@
-borrar al subir elementos al directorio.

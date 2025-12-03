@@ -1,3 +1,6 @@
+//poner los include SIEMPRE ANTES
+//session.start()
+
 class Cronometro{
 
     private $tiempo;
